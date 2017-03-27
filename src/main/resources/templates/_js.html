@@ -1,0 +1,47 @@
+[#ftl]
+<script type="text/javascript" src="/webjars/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Slim scroll -->
+<script type="text/javascript" src="/webjars/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- AngularJs package -->
+<script type="text/javascript" src="${contextPath!''}/webjars/angular/angular.min.js"></script>
+<script type="text/javascript" src="${contextPath!''}/webjars/angular-sanitize/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="${contextPath!''}/webjars/angular-resource/angular-resource.min.js"></script>
+<script type="text/javascript" src="${contextPath!''}/webjars/angular-animate/angular-animate.min.js"></script>
+<script type="text/javascript" src="${contextPath!''}/webjars/angular-i18n/angular-locale_${locale_!'pt-br'}.js"></script>
+<script type="text/javascript" src="/webjars/chartjs/Chart.min.js"></script>
+<script type="text/javascript" src="/webjars/angularjs/i18n/angular-locale_en.js"></script>
+<script type="text/javascript" src="/webjars/angularjs/i18n/angular-locale_${locale_!'pt-br'}.js"></script>
+<script type="text/javascript" src="/webjars/angular-loading-bar/build/loading-bar.min.js"></script>
+<script type="text/javascript" src="/webjars/angular-ui-bootstrap-bower/ui-bootstrap-tpls.min.js"></script>
+<script type="text/javascript" src="/webjars/angular-ui-utils/ui-utils.min.js"></script>
+<script type="text/javascript" src="/webjars/ng-file-upload/ng-file-upload-shim.min.js"></script>
+<script type="text/javascript" src="/webjars/ng-file-upload/ng-file-upload.min.js"></script>
+<script type="text/javascript" src="/webjars/ngImgCrop/compile/minified/ng-img-crop.js"></script>
+<script type="text/javascript" src="/webjars/momentjs/min/moment.min.js"></script>
+<script type="text/javascript" src="/webjars/jquery.inputmask/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" src="/webjars/ace/src-min-noconflict/ace.js"></script>
+<script type="text/javascript" src="/webjars/angular-ui-ace/ui-ace.js"></script>
+<script type="text/javascript" src="/webjars/ui-select/select.min.js"></script>
+<script type="text/javascript" src="/webjars/angular-bootstrap-calendar/dist/js/angular-bootstrap-calendar-tpls.min.js"></script>
+<script type="text/javascript" src="/webjars/angular-chart.js/dist/angular-chart.min.js"></script>
+
+<!-- service module-->
+<script type="text/javascript" src="/services.js"></script>
+<script type="text/javascript" src="/services-ext.js"></script>
+<script type="text/javascript" src="/iservport-layout-std.js"></script>
+<!-- i18n -->
+<script type="text/javascript" src="/_i18n/i18n_${locale!'pt_br'}.js"></script>
+<script type="text/javascript" src="/${baseName!'static'}/i18n/${baseName!'static'}_${locale!'pt_br'}.js"></script>
+
+<!-- modules-->
+<script type="text/javascript" src="/${baseName!'static'}/ng-${baseName!'static'}-module.js"></script>
+<script type="text/javascript" src="/${baseName!'static'}/ng-${baseName!'static'}-directive.js"></script>
+
+
+<!-- plugins-->
+[#if plugins?? ]
+  [#list plugins?split(",") as plugin]
+    <script type="text/javascript" src="/plugins/ng-${plugin}-plugin.js"></script>
+  [/#list]
+[/#if]
+

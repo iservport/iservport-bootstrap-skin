@@ -1,0 +1,40 @@
+<h4>FormaÃ§Ã£o de preÃ§o</h4>
+<div class="form-horizontal">
+    <div class="form-group">
+        <div class="form-group">
+            <label for="size" class="col-md-3 control-label"> Tamanho </label>
+            <div class="col-md-9">
+                <select id="size" data-ng-model="parsedContent.size" data-ng-options="option for option in ['a - gal&atilde;o (3.6 l)', 'b - balde (18 l)']"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="cover" class="col-md-3 control-label"> Tampa </label>
+            <div class="col-md-9">
+                <select id="cover" data-ng-model="parsedContent.cover" data-ng-options="option for option in ['a - tipo A', 'b - tipo B']"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="volume" class="col-md-3 control-label"> Volume </label>
+            <div class="col-md-9">
+                <select id="volume" data-ng-model="parsedContent.volume" data-ng-options="option for option in ['a - 0-1000', 'b - 1001-10000', 'c - 10001-50001']"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="freight" class="col-md-3 control-label"> Frete </label>
+            <div class="col-md-9">
+                <select id="freight" data-ng-model="parsedContent.freight" data-ng-options="option for option in ['1 - &lt;100km', '2 - &lt;1000km', '3 - territÃ³rio nacional']"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="color" class="col-md-3 control-label"> Impress&atilde;o </label>
+            <div class="col-md-9">
+                <select id="color" data-ng-model="parsedContent.color" data-ng-options="option for option in ['0 - Sem impress&atilde;o', '1 - Preto e branco', '2 - 2 cores', '3 - 3 cores', '4 - 4 cores']"></select>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-3"><b class="pull-right">Pre&ccedil;o unit&aacute;o</b></div>
+            <div class="col-md-9">R$ 00,00</div>
+        </div>
+    </div>
+</div>

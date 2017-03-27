@@ -1,0 +1,9 @@
+@media print {
+    @page {
+        size: h4;
+        <!--margin: 2cm;-->
+    }
+    div{
+            page-break-inside: avoid;
+        }
+}
