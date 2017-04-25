@@ -23,13 +23,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.12.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-select:0.19.6:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-validate:1.2.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-utils:3.0.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-uploader:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-scrollpoint:2.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-scroll:1.5.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-indeterminate:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-event:1.0.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-bootstrap-bower:2.5.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-sanitize:1.6.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-resource:1.6.3:jar" level="project" />
@@ -50,7 +43,6 @@
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-loading-bar:0.9.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-chart.js:0.10.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-bootstrap-calendar:0.20.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.webjars.bower:angular:1.6.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:Chart.js:1.1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:material-design-icons:2.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:json3:3.3.2-1:jar" level="project" />
@@ -64,16 +56,47 @@
     <orderEntry type="library" name="SBT: org.webjars:dropzone:3.7.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:chosen:0.9.12:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:chartjs:1.0.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.3.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.3.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.commons:commons-compress:1.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.7:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.7.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.commons:commons-lang3:3.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:webjars-locator:0.32-1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:webjars-locator-core:0.32:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:ace-builds:1.2.6:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:angular-ui-ace:0.2.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars.bower:github-com-nervgh-angular-file-upload:v2.3.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml:classmate:1.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.8.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.8.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.8.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.validation:validation-api:1.1.0.Final:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-core:8.5.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-el:8.5.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.hibernate:hibernate-validator:5.2.4.Final:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jboss.logging:jboss-logging:3.2.1.Final:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:jcl-over-slf4j:1.7.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:jul-to-slf4j:1.7.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:log4j-over-slf4j:1.7.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-aop:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-beans:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-context:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-core:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-expression:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-web:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-webmvc:4.3.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot-starter:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot-starter-logging:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot-starter-security:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot-starter-tomcat:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.boot:spring-boot-starter-web:1.4.0.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.security:spring-security-config:4.1.1.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.security:spring-security-core:4.1.1.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework.security:spring-security-web:4.1.1.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.webjars.bower:angular:1.6.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.yaml:snakeyaml:1.17:jar" level="project" />
   </component>
 </module>

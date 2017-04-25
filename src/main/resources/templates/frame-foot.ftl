@@ -27,6 +27,7 @@
 	<script type="text/javascript" src="/webjars/angularjs/angular-cookies.min.js"></script>
 	<script type="text/javascript" src="/webjars/angularjs/angular-animate.min.js"></script>
 	<script type="text/javascript" src="/webjars/angularjs/i18n/angular-locale_${locale_!'pt-br'}.js"></script>
+                                        /webjars/angular-i18n/angular-locale
 	<script type="text/javascript" src="/webjars/angular-loading-bar/loading-bar.min.js"></script>
 	<!-- <script type="text/javascript" src="/webjars/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
 	 -->

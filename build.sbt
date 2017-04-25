@@ -2,13 +2,18 @@ organization := "com.iservport"
 
 name := "iservport-bootstrap-skin"
 
-version := "1.0.7.DEV"
+version := "1.1.0.RELEASE"
 
 scalaVersion := "2.12.1"
 
 val angularVersion = "1.6.3"
 
+val springBootVersion = "1.4.0.RELEASE"
+
 libraryDependencies ++= Seq(
+  "org.springframework.boot"                   % "spring-boot-starter-web"        % springBootVersion,
+  "org.springframework.boot"                   % "spring-boot-starter-security"   % springBootVersion,
+
   "org.webjars"       % "webjars-locator"      % "0.32-1",
   "org.webjars.bower" % "angular"              % angularVersion,
   "org.webjars.bower" % "angular-sanitize"     % angularVersion,
@@ -25,7 +30,6 @@ libraryDependencies ++= Seq(
   "org.webjars.bower" % "bootstrap-social"     % "5.0.0",
   "org.webjars.bower" % "angular-bootstrap-calendar" % "0.20.2" exclude("org.webjars", "angular"),
   "org.webjars.bower" % "angular-ui-ace"       % "0.2.3",
-  "org.webjars.bower" % "angular-ui-utils"     % "3.0.0",
   "org.webjars.bower" % "angular-ui-select"    % "0.19.6",
   "org.webjars.bower" % "github-com-nervgh-angular-file-upload" % "v2.3.4",
   "org.webjars.bower" % "angular-chart.js"     % "0.10.2" exclude("org.webjars", "angular"),

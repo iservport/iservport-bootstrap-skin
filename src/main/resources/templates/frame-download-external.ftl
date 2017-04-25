@@ -15,8 +15,6 @@
 	<link rel='stylesheet' href='/css/slim-ui-1.3.css'>
 	<!-- Loading bar -->
 	<link rel='stylesheet' href='/webjars/angular-loading-bar/loading-bar.min.css'>
-	<!-- Morris style -->
-	<link rel="stylesheet" href="/webjars/morrisjs/morris.css">
 	<!-- font-awesome -->
 	<link rel='stylesheet' href="/webjars/font-awesome/css/font-awesome.css">
 	<!-- font-ionicons -->
@@ -38,16 +36,6 @@
 	<script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 	<!-- Knob -->
 	<script type="text/javascript" src="/webjars/jquery-knob/jquery.knob.min.js"></script>
-	<!-- Morris -->
-	<script src="/webjars/raphaeljs/raphael-min.js"></script>
-	<script src="/webjars/morrisjs/morris.min.js"></script>
-    <!-- CK Editor -->
-    <!-- script type="text/javascript" src="/webjars/ckeditor/ckeditor.js"> </script-->
-    <!-- Js padrão
-    <script type="text/javascript" src='/js/defaut.js'></script>-->
-    <!-- L20N -->
-    <script type="text/javascript" src='/js/l20n.min.js'></script>
-    <link rel="localization"  href="/locales/manifest.json">
     <!-- i18n para menu -->
     <script type="text/javascript" src='/ng/_i18n/menu-pt-BR.js'></script>
     <script type="text/javascript">var externalId = ${(externalId!0)?c};var externalPrincipal = '${externalPrincipal!""}';</script>

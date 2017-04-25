@@ -20,15 +20,12 @@
 		<!-- Loading bar -->
 		<link rel='stylesheet' href='/webjars/angular-loading-bar/build/loading-bar.min.css'>
 		<!-- ui-select -->
-		<link rel='stylesheet' href='/webjars/ui-select/select.min.css'>
+		<link rel='stylesheet' href='/webjars/angular-ui-select/dist/select.min.css'>
 
 		<link rel="stylesheet" href="/webjars/angular-bootstrap-calendar/dist/css/angular-bootstrap-calendar.min.css">
 
 		<#-- iservport css extension -->
 		<link rel='stylesheet' href='/css/iservport.css'>
-		
-		<#-- Morris style -->
-		<link rel="stylesheet" href="/webjars/morrisjs/morris.css">
 		
 		<#-- font-awesome -->
 		<link rel='stylesheet' href="/webjars/fontawesome/css/font-awesome.css">
@@ -63,10 +60,6 @@
 		
 		<#-- Knob -->
 		<script type="text/javascript" src="/webjars/jquery-knob/jquery.knob.min.js"></script>
-		
-		<#-- Morris -->
-		<script src="/webjars/raphaeljs/raphael-min.js"></script>
-		<script src="/webjars/morrisjs/morris.min.js"></script>
 		
 	    <#-- Js padrão-->
 	   	<script type="text/javascript" src='/js/defaut.js'></script>
